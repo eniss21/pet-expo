@@ -9,11 +9,7 @@ function Card({ animal, type }) {
       <div onClick={() => setIsOpen(!isOpen)}>
         <div className="card bg-emerald-800 text-lime-100 shadow-lg shadow-slate-500 transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:shadow-slate-800 ">
           <figure>
-            <img
-              src="https://cdn.outsideonline.com/wp-content/uploads/2023/03/Funny_Dog_S.jpg"
-              alt={type}
-            />
-            {/* <img src={animal.image} alt={type} /> */}
+            <img src={animal.image} alt={type} />
           </figure>
           <div className="card-body max-w-md px-3 pt-3">
             <h2 className="text-left text-lg font-bold uppercase tracking-tight">
