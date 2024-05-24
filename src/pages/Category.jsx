@@ -16,6 +16,7 @@ function Category() {
   //  ne initial render dhe sa here te kemi ndryshim te initialAnimals ose type , animal.map(...)do te bej afishimin e 6 cards kryesore
   useEffect(() => {
     setAnimals(initialAnimals);
+    setSearched(false);
   }, [initialAnimals, type]);
 
   // Do te perdori lloji osse emrin per te ber nje request dhe barazon animals me data-n e kthyer per ta afishuar ne ekran
