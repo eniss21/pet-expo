@@ -1,4 +1,5 @@
-# Internship FrontEnd Codevider
 
-Build by Enis Karriqi with React and TailwindCss
-# codevider_internship
+
+Build by Enis Karriqi with React.js 
+and TailwindCss
+
